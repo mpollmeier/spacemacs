@@ -32,7 +32,7 @@
       (setq user-emacs-ensime-directory ".cache/ensime")
 
       (evil-define-key 'insert ensime-mode-map
-        (kbd ".") 'scala/completing-dot
+        ;; (kbd ".") 'scala/completing-dot
         (kbd "M-.") 'ensime-edit-definition
         (kbd "M-,") 'ensime-pop-find-definition-stack)
 
